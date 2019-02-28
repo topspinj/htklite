@@ -1,3 +1,5 @@
-# HistomicsTK-Lite
+## HistomicsTK-Lite
 
-htklite is a lightweight and limited version of [HistomicsTK](https://github.com/DigitalSlideArchive/HistomicsTK).
+[![Build Status](https://travis-ci.org/topspinj/htklite.svg?branch=master)](https://travis-ci.org/topspinj/htklite)
+
+**htklite** is a lightweight and limited version of [HistomicsTK](https://github.com/DigitalSlideArchive/HistomicsTK).

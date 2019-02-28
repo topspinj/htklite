@@ -1,3 +1,3 @@
 # HistomicsTK-Lite
 
-HistomiticsTK-Lite is a lightweight and limited version of HistomicsTK.
+htklite is a lightweight and limited version of [HistomicsTK](https://github.com/DigitalSlideArchive/HistomicsTK).

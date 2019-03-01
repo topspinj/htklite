@@ -26,16 +26,6 @@ def color_convolution(im_stains, w, I_0=None):
     im_rgb : array_like
         Reconstructed RGB image with intensity values ranging from [0, 255],
         suitable for display.
-
-    See Also
-    --------
-    histomicstk.preprocessing.color_deconvolution.complement_stain_matrix,
-    histomicstk.preprocessing.color_deconvolution.color_deconvolution
-    histomicstk.preprocessing.color_conversion.rgb_to_od
-    histomicstk.preprocessing.color_conversion.od_to_rgb
-    histomicstk.preprocessing.color_conversion.rgb_to_sda
-    histomicstk.preprocessing.color_conversion.sda_to_rgb
-
     """
 
     # transform 3D input stain image to 2D stain matrix format

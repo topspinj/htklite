@@ -14,14 +14,6 @@ def sda_to_rgb(im_sda, I_0):
     ----
     For compatibility purposes, passing I_0=None invokes the behavior of
     od_to_rgb.
-
-    See Also
-    --------
-    histomicstk.preprocessing.color_conversion.rgb_to_sda,
-    histomicstk.preprocessing.color_conversion.od_to_rgb,
-    histomicstk.preprocessing.color_deconvolution.color_deconvolution,
-    histomicstk.preprocessing.color_deconvolution.color_convolution
-
     """
     is_matrix = im_sda.ndim == 2
     if is_matrix:

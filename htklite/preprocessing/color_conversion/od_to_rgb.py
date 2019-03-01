@@ -15,14 +15,6 @@ def od_to_rgb(im_od):
     im_rgb : array_like
         A floating-point multi-channel image with intensity
         values in the range [0, 255].
-
-    See Also
-    --------
-    histomicstk.preprocessing.color_conversion.rgb_to_od,
-    histomicstk.preprocessing.color_conversion.sda_to_rgb,
-    histomicstk.preprocessing.color_deconvolution.color_deconvolution,
-    histomicstk.preprocessing.color_deconvolution.color_convolution
-
     """
 
     return sda_to_rgb(im_od, None)  # compatibility mode

@@ -1,8 +1,9 @@
 import numpy as np
 
 def get_principal_components(m):
-    """Take a matrix m (probably 3xN) and return the 3x3 matrix of
-    "principal components".  (Actually computed with SVD)
+    """Takes a matrix m and returns the 3x3 matrix of
+    principal components. Computed using Singular Value 
+    Decomposition (SVD).
     """
     return np.linalg.svd(m.astype(float), full_matrices=False)[0].astype(m.dtype)
 

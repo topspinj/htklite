@@ -41,16 +41,6 @@ def color_deconvolution(im_rgb, w, I_0=None):
     Wc : array_like
         A 3x3 complemented stain matrix. Useful for color image
         reconstruction with color_convolution.
-
-    See Also
-    --------
-    histomicstk.preprocessing.color_deconvolution.complement_stain_matrix,
-    histomicstk.preprocessing.color_deconvolution.color_convolution
-    histomicstk.preprocessing.color_conversion.rgb_to_od
-    histomicstk.preprocessing.color_conversion.od_to_rgb
-    histomicstk.preprocessing.color_conversion.rgb_to_sda
-    histomicstk.preprocessing.color_conversion.sda_to_rgb
-
     """
 
     # complement stain matrix if needed
@@ -105,11 +95,6 @@ def complement_stain_matrix(w):
     w_comp : array_like
         A 3x3 complemented stain calibration matrix with a third
         orthogonal column.
-
-    See Also
-    --------
-    histomicstk.preprocessing.color_deconvolution.color_deconvolution
-
     """
     stain0 = w[:, 0]
     stain1 = w[:, 1]

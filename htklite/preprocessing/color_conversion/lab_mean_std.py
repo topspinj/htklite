@@ -42,11 +42,6 @@ def lab_mean_std(im_input):
         A 3-element array containing the standard deviation of each channel
         of the input RGB in LAB color space.
 
-    See Also
-    --------
-    histomicstk.preprocessing.color_conversion.rgb_to_lab,
-    histomicstk.preprocessing.color_conversion.reinhard
-
     References
     ----------
     .. [#] E. Reinhard, M. Adhikhmin, B. Gooch, P. Shirley, "Color transfer

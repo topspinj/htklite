@@ -29,11 +29,6 @@ def rgb_to_lab(im_rgb):
     im_lab : array_like
         LAB representation of the input image `im_rgb`.
 
-    See Also
-    --------
-    histomicstk.preprocessing.color_conversion.lab_to_rgb,
-    histomicstk.preprocessing.color_normalization.reinhard
-
     References
     ----------
     .. [#] D. Ruderman, T. Cronin, and C. Chiao, "Statistics of cone

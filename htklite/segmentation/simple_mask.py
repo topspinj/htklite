@@ -20,7 +20,7 @@ def simple_mask(im_rgb, bandwidth=2, bgnd_std=2.5, tissue_std=30,
     is more prone to local minima effects). A maximum-likelihood threshold
     is then derived and used to mask the tissue area in a binarized image.
 
-    params
+    Parameters
     ----------
     im_rgb : array_like
         An RGB image of type unsigned char.
@@ -150,13 +150,13 @@ def simple_mask(im_rgb, bandwidth=2, bgnd_std=2.5, tissue_std=30,
 
 
 def estimate_variance(x, y, peak):
-    """Estimates variance of a peak in a histogram using the full-width-half-maximum
+    """Estimates variance of a peak in a histogram using the full-width at half-maximum
     (FWHM) of an approximate normal distribution. Starting from a user-supplied 
     peak and histogram, this method traces down each side of the peak to estimate 
     the FWHM and variance of the peak. If tracing fails on either side, the FWHM is
-    estimated as twice the HWHM.
+    estimated as twice the half-width at half-maximum (HWHM).
 
-    params
+    Parameters
     ----------
     x : array_like
         vector of x-histogram locations.

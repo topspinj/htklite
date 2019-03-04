@@ -1,7 +1,7 @@
-import numpy as np
 import os
-import skimage.io
 import unittest
+import numpy as np
+import skimage.io
 
 from htklite.preprocessing import color_deconvolution, color_convolution
 
